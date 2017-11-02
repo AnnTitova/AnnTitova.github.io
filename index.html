@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="blue lighten-4">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark indigo fixed-top scrolling-navbar top-nav-collapse" id="nav-bar">
+        <a class="navbar-brand" id="theme" style="color:white">Ann Titova</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cortona.html">3D Models</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div id="content" class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="card mb-4 pt-3 col-md-12 col-lg-6">
+                    <img src="img/content/quote.jpg" class="img-fluid">
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Confident, optimistic, purposeful</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-sm-12 col-lg-6 mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Favorite films</h4>
+                        <div id="films">
+                            <ul class="list-group">
+                                <li><a href="https://ru.wikipedia.org/wiki/Судья (фильм, 2014)"
+                                       class="list-group-item list-group-item-action"
+                                       target="_blank">
+                                    Судья (2014)
+                                </a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Начало (фильм, 2010)"
+                                       class="list-group-item list-group-item-action"
+                                       target="_blank">
+                                    Начало (2010)
+                                </a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Мой сосед Тоторо"
+                                       class="list-group-item list-group-item-action"
+                                       target="_blank">
+                                    Мой сосед Тоторо (1988)
+                                </a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Хорошо быть тихоней"
+                                       class="list-group-item list-group-item-action"
+                                       target="_blank">
+                                    Хорошо быть тихоней (2012)
+                                </a></li>
+                                <li><a href="https://ru.wikipedia.org/wiki/Кредо убийцы"
+                                       class="list-group-item list-group-item-action"
+                                       target="_blank">
+                                    Кредо убийцы (2016)
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-md-12 col-lg-10 mb-4 px-0">
+                    <div class="card-body">
+                        <h4 class="card-title mb-2">Photos</h4>
+                        <div id="carousel"
+                             class="carousel slide carousel-fade carousel-thumbnails"
+                             data-ride="carousel">
+                            <!--Slides-->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="img/content/slides/1.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="img/content/slides/2.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="img/content/slides/3.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="img/content/slides/4.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="img/content/slides/5.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="img/content/slides/6.jpg">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel" data-slide-to="1"></li>
+                                <li data-target="#carousel" data-slide-to="2"></li>
+                                <li data-target="#carousel" data-slide-to="3"></li>
+                                <li data-target="#carousel" data-slide-to="4"></li>
+                                <li data-target="#carousel" data-slide-to="5"></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card mb-4 col-sm-12 col-lg-10">
+                    <div class="card-body">
+                        <h4 class="card-title">My moods</h4>
+                        <div class="row">
+                            <div class="card col-lg-3 col-sm-12 pt-2 my-2">
+                                <img src="img/content/moods/1.jpg" class="img-fluid">
+                                <div class="card-body">
+                                    <h4 class="card-title">Now</h4>
+                                </div>
+                            </div>
+                            <div class="card col-lg-3 col-sm-12 ml-auto pt-2 my-2">
+                                <img src="img/content/moods/2.jpg" class="img-fluid">
+                                <div class="card-body">
+                                    <h4 class="card-title">Serious</h4>
+                                </div>
+                            </div>
+                            <div class="card col-lg-3 col-sm-12 ml-auto pt-2 my-2">
+                                <img src="img/content/moods/3.png" class="img-fluid">
+                                <div class="card-body">
+                                    <h4 class="card-title">Joyful</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-lg-10 col-sm-12 mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title">Marks of subjects</h4>
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>Предмет</th>
+                                <th>Фамилия и инициалы экзаменатора</th>
+                                <th>Оценка по шкале ECTS</th>
+
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Компьютерные сети</td>
+                                <td>Трубаев А.И.</td>
+                                <td>83</td>
+                            </tr>
+                            <tr>
+                                <td>Украинский язык</td>
+                                <td>Сухоруков В.А.</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>Моделирование систем</td>
+                                <td>Петрова Ю.А.</td>
+                                <td>84</td>
+                            </tr>
+                            <tr>
+                                <td>Правоведение</td>
+                                <td>Гаевая О.В.</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>Физическое воспитание</td>
+                                <td>Бутко Н.И.</td>
+                                <td>96</td>
+                            </tr>
+                            <tr>
+                                <td>Технологии создания ПО</td>
+                                <td>Ларин А.А.</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <td>Колебания механических систем</td>
+                                <td>Трубаев А.И.</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>Матметоды исследования операций</td>
+                                <td>Иглин С.П.</td>
+                                <td>85</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-lg-10 col-sm-12 mb-4">
+                    <div class="card-body">
+                        <h3>Интересные факты</h3>
+                        <p>Точное время возникновения Алексеевки неизвестно. Она возникла в конце XVII либо в самом
+                            начале XVIII века. Население Алексеевки в 1779 году, согласно «Ведомости»,1779 года,
+                            было 398 «владельческих подданных» душ вахмистров Ивана и Григория Квиток и 179 душ
+                            неописанной принадлежности (учитывались только мужчины; женщин не считали, так как они
+                            не платили налогов). В данной ведомости Алексеевка именуется «владельческая
+                            слободка».</p>
+                        <p>Расположена на водоразделе рек Алексеевка и Лозовенька, то есть между Алексиевым яром и
+                            Лозовеньковской балкой, являющимися её естественными границами. С западного склона
+                            района вода стекает в реку Лозовеньку, с восточного — в Алексеевку. </p>
+                        <p>В 1782 году в слободке Алексеевка, владения коллежского советника Петра Андреева сына
+                            Щербинина в 39 дворах проживало 280 человек. Первоначально располагалась несколько выше
+                            пересечения Золочевской дороги (ныне улица Клочковская) с речкой Алексеевкой, на правом
+                            её берегу, выше источника; на карте 1788 года обозначена как «деревня».</p>
+                        <p>В списках населенных мест Харьковской губернии 1864 года в селе Алексеевка в 120 дворах
+                            проживало 664 жителя. Была православная церковь и винокуренный завод. В 1885 году в селе
+                            Алексеевка Алексеевской волости в 115 дворах проживало 644 жителя. Была православная
+                            церковь. По переписи населения 1897 года в селе Алексеевка проживало 853 жителя.</p>
+                        <p>Рядом с Алексеевской улицей был построен в 1839 году православный храм Алексия, человека
+                            Божьего (Харьков), разрушенный при штурме города во время третьего сражения за Харьков в
+                            1943 году. Сейчас на месте бывшего православного храма ведётся строительство огромного
+                            кафедрального католического храма Харьковской диоцезии Римско-католической церкви с
+                            домом главы католической епархии и вспомогательными службами. Источник действует и
+                            сейчас, многие жители района им пользуются.</p>
+                        <p>До 1950-х годов Алексеевка была небольшим селом на левом берегу реки Лопань, выше
+                            нынешнего лугопарка, и не входила в городскую черту Харькова. Этот район сейчас
+                            называется Старая Алексеевка. Массовая застройка Алексеевки многоэтажными жилыми домами
+                            началась с середины 70-х годов. В 80-х годах район застраивался в сторону Пятихаток.
+                            Район от проспекта Людвига Свободы в сторону Пятихаток называется Новая Алексеевка.</p>
+                        <h4>Достопримечательности </h4>
+                        <ul>
+                            <li>Алексеевский лугопарк — место отдыха.</li>
+                            <li>Лозовеньковское водохранилище — место отдыха.</li>
+                            <li>Харьковский лесопарк — место отдыха.</li>
+                            <li>Источник Алексия, человека Божия.</li>
+                            <li>Храм Алексия, человека Божия — православный.</li>
+                            <li>Римско-католический костёл (недостроен) — католический.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card col-lg-10 col-sm-12">
+                    <div class="card-body">
+                        <h4 class="title">Link &amp; Copyright</h4>
+                        <p><a href="mailto:titova.anna3@gmail.com"><i class="fa fa-mail-forward"></i> titova.anna3@gmail.com</a></p>
+                        <p>© 2017 Copyright: Ann Titova</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+
+</html>
